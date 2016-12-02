@@ -23,6 +23,7 @@ install:
   - "%PYTHON%\\python.exe -m pip install wheel"
   - "%PYTHON%\\python.exe -m pip install pyreadline"
   - "%PYTHON%\\python.exe -m pip install pymongo"
+  - "%PYTHON%\\python.exe -m pip install pyparsing"
 
 build: off
 
