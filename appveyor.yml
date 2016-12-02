@@ -37,7 +37,7 @@ test_script:
   # to put the Python evrsion you want to use on PATH.
   #  - "%PYTHON%\\python.exe values.py"
   #  - "%PYTHON%\\python.exe fail.py"
-  - ps: appveyor Add-AppveyorMessage "Message test"
+  - ps: Add-AppveyorMessage "Message test"
 
 after_test:
   # This step builds your wheels.
